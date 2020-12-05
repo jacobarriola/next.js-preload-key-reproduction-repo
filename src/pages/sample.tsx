@@ -1,4 +1,3 @@
-import NextLink from "next/link";
 import {
   Link as ChakraLink,
   Text,
@@ -19,9 +18,6 @@ import { Footer } from "../components/Footer";
 const Index = () => (
   <Container height="100vh">
     <Hero />
-    <NextLink href="/sample" passHref>
-      <Text as="a">Link to sample page</Text>
-    </NextLink>
     <Main>
       <Text>
         Example repository of <Code>Next.js</Code> + <Code>chakra-ui</Code> +{" "}
