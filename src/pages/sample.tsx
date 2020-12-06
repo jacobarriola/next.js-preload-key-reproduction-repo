@@ -8,6 +8,7 @@ import {
   AccordionIcon
 } from "@chakra-ui/react";
 import Link from "next/link";
+import { FiClock } from "react-icons/fi";
 
 import { Container } from "../components/Container";
 import { Main } from "../components/Main";
@@ -20,6 +21,8 @@ const Index = () => (
       <Link href="/" passHref>
         <Box as="a">Back to home page</Box>
       </Link>
+      <FiClock />
+
       <Accordion allowToggle>
         <AccordionItem>
           <AccordionButton>
